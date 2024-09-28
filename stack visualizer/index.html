@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Visualizer</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <main>
+        <div id="operation">
+            <!-- <form action="#" id="form"> -->
+            <input type="text" id="stack-number" placeholder="Enter Stack Element">
+            <button id="push">Push</button>
+            <button id="pop">Pop</button>
+            <button id="reset">Reset</button>
+            <!-- </form> -->
+        </div>
+        <section id="stack-content">
+            <div id="stack-visualizer">
+                <div id="stack">
+                </div>
+            </div>
+            <div id="stack-message">
+                <div class="message">
+                    <div>Top of the stack:
+                    </div>
+                    <div id="top" class="element-container"></div>
+                </div>
+                <div class="message">
+                    <div class="message-container">last pushed item:
+                    </div>
+                    <div id="pushed-element" class="element-container">
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="message-container">Last popped Item:
+                    </div>
+                    <div id="popped-element" class="element-container">
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="message-container">Size of the stack:
+                    </div>
+                    <div id="stack-size" class="element-container">5
+                    </div>
+                </div>
+                <div id="message">
+                    Message
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
